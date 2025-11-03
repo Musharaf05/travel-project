@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ------------Colors----------------- */
+    --primary-color:#3781f8;
+    --secondary-color:#EAA64D;
+
+
+    /* ------------Fonts------------------ */
+    --primary-font:"Playfair Display",serif;
+}
+
+/* -----------------------Global CSS-------------------- */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+img {
+    display: inline-block;
+}
+
+/* -------------------Header------------------- */
+
+.header {
+    background-color: var(--primary-color);
+    height: 6rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo-text {
+    font-family: var(--primary-font);
+    padding:20px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.nav-list {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+/* --------------------------------Hero Section-------------------------- */
+
+.hero-div {
+    display: flex;
+    justify-content: center;
+    width:85%;
+}
+
+.hero-img {
+    width: 35rem;
+    height: 30rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.hero-title {
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    margin-left: 3rem;
+    font-family: var(--primary-font);
+    text-align: center;
+}
+
+.hero-text {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.btn-a {
+    background-color: var(--secondary-color);
+    width: 120px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.btn-a:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+/* ---------------------------------Places Section---------------------------------- */
+
+.places{
+    margin-top: 4rem;
+}
+
+.places-info {
+    display:flex;
+    width:90%;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.places-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.places-img {
+    width:33%;
+    text-align: center;
+}
+
+.places-img img{
+    width:100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.places-img p {
+    color:rgb(74, 76, 76);
+    padding: 1rem;
+}
